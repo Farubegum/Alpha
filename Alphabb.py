@@ -1,14 +1,12 @@
-ca = input();
-
-if ca == '0':
-
-exit();
-
+cp = input();
+if cp == '0':
+    exit();
 else:
-
-    if((ca>='a' and ca<='z') or (ca>='A' and ca<='Z')):
-
-    	print(ca, "Alphabet");                                               else:
+    if((cp>='a' and cp<='z') or (cp>='A' and cp<='Z')):
+    	print(cp, "Alphabet");
     else:
-    	print(ca, "No");
+    	print(cp, "No");
+                                       
+
+
 
